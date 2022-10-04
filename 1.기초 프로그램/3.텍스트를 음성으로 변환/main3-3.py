@@ -2,6 +2,7 @@ from gtts import gTTS
 from playsound import playsound
 import os
 
+#경로를 .py파일의 실행결로로 이동, 현재 경로로 이동
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 file_path = 'my_text.txt'
